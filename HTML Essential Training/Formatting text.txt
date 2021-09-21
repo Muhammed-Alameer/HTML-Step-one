@@ -1,0 +1,92 @@
+<!--- pharagraph    --->
+<p>
+  this is pharagraph
+</p>
+
+<!--- Heading   --->
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+
+
+<!---  The <br> tag inserts a single line break.  --->
+<br>
+
+<!---  <b>	This is a physical tag, which is used to bold the text written between it without any extra importance  --->
+<b>this is bold</b>
+
+<!--- The <b> tag specifies bold text without any extra importance   --->
+<p>This is normal text - <b>and this is bold text</b>.</p>
+
+<!---  The <i> tag defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.  --->
+<p>this is my <i>favorit</i> place</p>
+
+<!--- The <em> tag is used to define emphasized text. The content inside is typically displayed in italic.  --->
+<p>You <em>have</em> to hurry up!</p>
+
+<!--- The <li> tag defines a list item.
+The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>).
+In <ul> and <menu>, the list items will usually be displayed with bullet points.
+In <ol>, the list items will usually be displayed with numbers or letters.  --->
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<!---  The <dd> tag is used to describe a term/name in a description list.
+The <dd> tag is used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names).
+Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.  --->
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+<!--- The <blockquote> tag specifies a section that is quoted from another source.   --->
+<blockquote>
+Life is what happens when you’re busy making other plans
+</blockquote>
+
+<!--- The <q> tag defines a short quotation.   --->
+<p>WWF's goal is to:
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+
+<!--- The <time> tag defines a specific time (or datetime).   --->
+<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+<!--- The <sup> tag defines superscript text.    --->
+<p>This text contains <sup>superscript</sup> text.</p>
+<p>2 <sup>2</sup> </p>
+
+<!---  The <sub> tag defines subscript text.  --->
+<p>This text contains <sub>subscript</sub> text.</p>
+<p>H <sub>2</sub> O</p>
+
+<!---  The <code> tag is used to define a piece of computer code  --->
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+
+<!---  The <pre> tag defines preformatted text.  --->
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+
+
+<!---    --->
