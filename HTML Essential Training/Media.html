@@ -1,0 +1,72 @@
+<!---  To play an audio file, we use the <audio> element.
+The controls attribute adds audio controls, like play, pause, and volume.
+The <source> element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.
+To start an audio file automatically, use the autoplay attribute.
+The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element.   
+--->
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<!--- 
+  To show a video in HTML, use the <video> element.
+The controls attribute adds video controls, like play, pause, and volume.
+It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.
+The <source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
+The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element.
+To start a video automatically, use the autoplay attribute.
+--->
+<video width="320" height="240" autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+
+<!---   
+To play youtube video on a web page, we do the following:
+Take a note of the video id
+Define an <iframe> element in your web page
+Let the src attribute point to the video URL
+Use the width and height attributes to specify the dimension of the player
+Add any other parameters to the URL (see below)  
+--->
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GVhvNai3W5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<!--- the instructor Example
+we used <track> to make more vid qualites 
+and kind attribut for subtitles
+srclang for subtitle language --->
+
+<video controls>
+  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.vp9.webm" 
+    type="video/webm">
+  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.480p.h264.mp4" 
+    type="video/mp4">
+  
+  <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.vtt"
+         kind="captions"
+         label="English"
+         srclang="en"
+         default>
+  
+   <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/moonwalk.es-la.es.vtt"
+         kind="subtitles"
+         label="Español"
+         srclang="es">
+  
+  <p>This would be a video of a moonwalk, if your device supported playing this video.</p>
+</video>
+
+
+
+
+<!---     --->
+
+
+
+
+<!---     --->
