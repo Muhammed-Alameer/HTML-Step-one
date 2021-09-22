@@ -1,0 +1,41 @@
+<!--- Images can improve the design and the appearance of a web page.
+
+The HTML <img> tag is used to embed an image in a web page.
+The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+The <img> tag has two required attributes:
+src - Specifies the path to the image
+alt - Specifies an alternate text for the image
+Width and Height
+   --->
+<img src="https://vetstreet-brightspot.s3.amazonaws.com/9d/b6/4594ad684c7bae3bebd2a5a0f9f5/white-dog-thinkstockphotos-177514586-590sm6415.jpg"
+     alt="cute white dog" width="500" height="350">
+
+<!---  
+
+The most common image file types :
+GIF	Graphics Interchange Format
+ICO	Microsoft Icon
+JPEG	Joint Photographic Expert Group image
+PNG	Portable Network Graphics	
+SVG	Scalable Vector Graphics
+--->
+
+<!---  The <picture> tag gives web developers more flexibility in specifying image resources.  --->
+<picture>
+  <source media="(min-width:650px)" srcset="https://cf.shopee.ph/file/b75acdd7cbab76896aafd3e85b468e04" >
+  <source media="(min-width:465px)" srcset="https://cf.shopee.ph/file/b75acdd7cbab76896aafd3e85b468e04" >
+  <img src="https://cf.shopee.ph/file/b75acdd7cbab76896aafd3e85b468e04" alt="Purble flowers" width="500" height="500"">
+</picture>
+
+
+<!--- The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+      The <figcaption> tag defines a caption for a <figure> element. --->
+ 
+                                                                                                                      
+    <figure>
+  <img src="https://icdn.juvefc.com/wp-content/uploads/2020/02/ac-milan-v-juventus-coppa-italia-semi-final-scaled.jpg" alt="juventus team 2019/20" style="width:100%">
+  <figcaption>Grinta, Passion, Italy.</figcaption>
+</figure>                                                                                                                  
+                                                                                                                
+                                                                                      
+
